@@ -23,6 +23,8 @@ cd CloakCrypt
 #Install golang if need be (linux: apt install golang)
 go install github.com/wailsapp/wails/v2/cmd/wails@latest
 ~/go/bin/wails doctor #If everything looks fine continue to next step
+npm install -g sass
+sass frontend/src/
 ~/go/bin/wails build
 # The executable can be found in build/bin
 ```
