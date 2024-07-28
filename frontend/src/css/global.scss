@@ -1,0 +1,38 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+$maincolor: lightskyblue;
+$txtcolor: grey;
+
+label {
+    font-weight: 400 !important;
+}
+
+html {
+    * {
+        color: $txtcolor;
+    }
+
+    h1,h2,h3,button {
+        color: $maincolor;
+    }
+
+    padding: 10px;
+
+    overflow-x: hidden;
+}
+
+button {
+    border-radius: 10px;
+    
+    padding: 5px;
+    padding-inline: 10px;
+
+    &:hover {
+        filter: brightness(105%) !important;
+    }
+}
+
+.title {
+    font-weight: 700 !important;
+}

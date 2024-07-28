@@ -1,0 +1,52 @@
+@import './global.scss';
+
+.basicform {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    div {
+        width: 70%;
+        max-width: 600px;
+        
+        label {
+            margin-top: 20px;
+
+            font-weight: 400;
+            font-size: 20px;
+        }
+        
+        input {
+            width: 100%;
+            
+            font-size: 20px;
+            
+            border-radius: 5px;
+            
+            color: $txtcolor;
+        }
+        
+        b,i {
+            font-size: 15px;
+
+            color: lightcoral;
+        }
+
+        #createButton {            
+            border: none;
+            
+            font-size: 20px;
+            
+            background-color: $maincolor;
+            color: white;
+        }
+        
+    }
+    @include media-breakpoint-down(md) {
+        div {
+            width: 100%;
+        }
+        
+    }
+}
