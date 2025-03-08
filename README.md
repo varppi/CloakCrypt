@@ -17,7 +17,7 @@ Think of it as a more stealthy version of an encrypted archive. The encrypted co
 * Windows: download the exe from the releases tab
 * Linux and MacOS / manual compile:
 ```
-git clone https://github.com/R00tendo/CloakCrypt
+git clone https://github.com/SpoofIMEI/CloakCrypt
 cd CloakCrypt
 
 #Install golang if need be (linux: apt install golang)
